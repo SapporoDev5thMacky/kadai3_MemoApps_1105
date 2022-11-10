@@ -1,0 +1,129 @@
+body{
+    background: rgb(58,126,180);
+    background: linear-gradient(90deg, rgba(58,126,180,1) 0%, rgba(39,29,253,1) 49%, rgba(133,69,252,1) 100%);
+    margin:0 auto;
+    padding-bottom: 120px;
+    text-align:left;
+    font-size: 24px;
+    width:800px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position:relative;
+}
+header{
+    background-color: blue;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 24px;
+}
+main{
+    width:800px;
+    display: block;
+    border-bottom:1px solid #ccc;
+    font-size: 20px;
+    color: black;
+    height: 100%;
+}
+
+
+ul{
+    margin: 30px auto;
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table; 
+    table-layout: fixed;
+    width:30%;
+    font-size: 3opx;
+    text-align: center;}
+
+.item{
+  display: flex;
+  margin: 30px 0 10px 0;
+  font-size: 20px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+li{
+    list-style-type:none;
+    border: 5px solid white;
+    background-color: rgba(60, 0, 255, 0.829);
+    display:table-cell;
+    cursor: pointer;
+    color:white;
+    
+}
+li:hover{
+    /* background: #0d7dfd; */
+    background: green;
+    color:#fff;
+    
+}
+
+textarea{
+    margin: 0 0 0 auto;
+    width: 80%;
+    height: 100px;
+    font-size:80%;
+    
+    background-color:rgb(129, 233, 247);
+    }
+
+#key{
+    margin: 0 0 0 auto;
+    width: 80%;
+    font-size:80%;
+    background-color: rgb(117, 219, 247);
+    
+    }
+    
+table{
+    margin: 20px 3%;
+    border:1px solid #8dc3f5;
+    width:96%;
+    
+}
+th{
+    width:30%;
+    font-size:16px;
+    background-color:#d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+}
+td{
+    font-size:12px;
+    background-color:rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+}
+
+.itemdate{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #ccc;
+  }
+  .select{
+  background-color: rgb(129, 233, 247);
+  margin-left: 110px;
+  height: 30px;
+  
+    }
+
+footer{
+    width: 800px;
+    background-color: blue;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: white;
+    font-size: 3opx;
+    position: absolute;
+    bottom: 0%;
+    margin-top: 30px;
+}
+
+
+footer:hover{
+    background: red;
+    color:#fff;
+}

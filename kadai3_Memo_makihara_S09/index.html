@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TO DO LIST</title>
+
+<link rel="stylesheet" href="css/sample.css">
+</head>
+<body>
+<header>
+<h1>TO DO LIST</h1>
+</header>
+<main>
+     <div class="item">タイトル<input type="text" id="key" placeholder="項目を記入"></div>
+    <p class="item">メモ<textarea id="memo" placeholder="内容を記入"></textarea></p>
+    <p class="itemdate">期限
+    <input class="select" type="text" id="duedate" placeholder="カレンダーから選択"></p>
+    <ul>
+        <li id="save">追加</li>
+        <!-- <li id="clear">全データ削除</li> フッターにした-->
+    </ul>
+</main>
+<table id="top">          
+    <thead>
+    <th width="10%">期限</th>
+    <th width="30%">タイトル</th>
+    <th width="50%">メモ</th>
+    <th width="10%"></th>
+    </tr>
+  </thead>
+  <tbody id="list">
+
+  </tbody>
+</table>
+<footer id="clear">全データ削除</footer>
+<script src="js/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+
+</body>
+</html>
